@@ -1,0 +1,27 @@
+{
+  "Comment": "Create a subdomain NS record in the parent domain",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "kubernetes.aws.empoweredtechnology.net",
+        "Type": "NS",
+        "TTL": 300,
+        "ResourceRecords": [
+          {
+            "Value": "ns-89.awsdns-11.com"
+          },
+          {
+            "Value": "ns-583.awsdns-08.net"
+          },
+          {
+            "Value": "ns-1557.awsdns-02.co.uk"
+          },
+          {
+            "Value": "ns-1440.awsdns-52.org"
+          }
+        ]
+      }
+    }
+  ]
+}
